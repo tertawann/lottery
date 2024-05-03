@@ -21,5 +21,5 @@ Route::post('/lottery/find', [LotteryController::class, 'find']);
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('lottery.index');
 });
