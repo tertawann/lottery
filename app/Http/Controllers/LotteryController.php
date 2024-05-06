@@ -91,9 +91,11 @@ class LotteryController extends Controller
     {
         $reward = $this->pad(rand(1, $value), $digits);
 
-        while (isset($this->out[$reward])) {
-            $this->out[$reward] = true;
+        if (isset($this->out[$reward])) {
+            return $this->random($value, $digits);
         }
+
+        $this->out[$reward] = true;
 
         return $reward;
     }
