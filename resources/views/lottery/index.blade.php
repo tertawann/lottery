@@ -4,13 +4,13 @@
     <main class="container py-4">
         <header class="pb-3 mb-4 border-bottom">
             <a href="/lottery" class="d-flex align-items-center text-dark text-decoration-none">
-                <span class="fs-4">Diversition</span>
+                <span class="fs-4">Lottery</span>
             </a>
         </header>
 
         <div class="p-5 mb-4 bg-light rounded-3">
             <div class="container-fluid py-5">
-                <p class="h2 fw-bold mb-3">ผลการออกรางวัลล็อตเตอรี่ Diversition</p>
+                <p class="h2 fw-bold mb-3">ผลการออกรางวัลล็อตเตอรี่ Lottery</p>
                 <article class="mb-3">
                     <div class="row gx-3 mb-3">
                         <div class="col-3">
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                 </article>
-                <p class="h2 fw-bold mb-3">ตรวจรางวัลล็อตเตอรี่ Diversition</p>
+                <p class="h2 fw-bold mb-3">ตรวจรางวัลล็อตเตอรี่ Lottery</p>
                 <article class="mb-3">
                     <form action="/lottery/find" method="post">
                         <div class="row g-3">
